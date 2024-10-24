@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#week-visualization {
+    white-space: pre-wrap;
+    line-height: 1.5;
+}
+
+.week {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    margin: 2px;
+}
+
+.past-week {
+    color: green;
+}
+
+.future-week {
+    color: grey;
+}
