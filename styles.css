@@ -6,8 +6,6 @@ body {
 #week-visualization {
     white-space: pre-wrap;
     line-height: 1.5;
-    overflow: hidden; /* 스크롤 없애기 */
-    height: 600px; /* 필요에 맞는 적당한 높이로 설정 */
 }
 
 .week {
