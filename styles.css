@@ -16,9 +16,8 @@ body {
 }
 
 .past-week {
-    color: green;
+    color: #dfdede;
 }
-
 .future-week {
-    color: grey;
+    color: green;
 }
