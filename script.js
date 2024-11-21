@@ -29,7 +29,7 @@ function getString(startDate, years) {
         if (!weekSet.has(weekString)) {
             weekSet.add(weekString);
             totalWeeks++;
-            result += `<span class="week ${isPastWeek(currentDate) ? 'past-week' : 'future-week'}">${isPastWeek(currentDate) ? '🟢' : '◻️'}</span>`;
+            result += `<span class="week ${isPastWeek(currentDate) ? 'past-week' : 'future-week'}">${isPastWeek(currentDate) ? '◻️' : '🟢'}</span>`;
             if (!isPastWeek(currentDate)) {
                 totalWeeksLeft++;
             }
