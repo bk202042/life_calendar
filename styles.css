@@ -16,8 +16,8 @@ body {
 }
 
 .past-week {
-    color: #dfdede;
+    color: hsl(105, 2%, 50%);
 }
 .future-week {
-    color: green;
+    color: #0afe06;
 }
